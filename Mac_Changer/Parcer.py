@@ -12,6 +12,6 @@ class Parcer:
         (self.options, self.args) = self.parcer.parse_args()
 
         if not self.options.interface:
-            self.parcer.error("You need specify 2 arguments INTERFACE(-i) & MAC(-m)")
+            self.parcer.error("You need specify 1 argument INTERFACE(-i)")
         
         return self.options
